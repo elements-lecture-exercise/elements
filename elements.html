@@ -5,14 +5,16 @@
     <title>Nested and Lists Elements</title>
 </head>
 <body>
-<h1>Nested Elements</h1>
+<h1>Tye and Matteo's Lecture on Nested and List elements!</h1>
+<hr>
+<h2>Nested Elements</h2>
 <p>
     When an element is nested inside other elements, OR, taking from the javascript language, concatenated, the added element takes on a different type of format.
     This format is viewed by the user in a bold and italicized script to create more awareness of importance of what is being conveyed. <br><br>
     Example: <br><br>
     This element is processed by wrapping the emphasis (em) and strong (strong) tag around the element as such:  <em><strong> BOLD & ITALICIZED</strong>!</em>
     <br><br>
-    Good Examples of Writing the HTML code: <br><br>
+    Good Example of Writing the HTML code: <br><br>
     <em><strong>Hello World!!!</strong></em>
     <br><br>
     Bad Example: <br><br>
@@ -24,7 +26,7 @@
 
 </p>
 <hr>
-<h1>Lists Elements</h1>
+<h2>Lists Elements</h2>
 <p>
     The types of lists include both ordered <strong>(ol)</strong> and unordered <strong>(ul)</strong> any listed items will be listed with the (li) element.
     The (ol) and (ul) elements both represent a list of items. The difference is with (ol) the order is meaningful. <br>
@@ -42,6 +44,26 @@ Example using the type inside the (ol) can amke the list look like this:
     <li>3</li>
 </ol>
 Other examples are having the alphabet like "a" or "A"!
+(ul) are used to order a collection of items that don't need to be ordered in any specific way. You can change the style of the bullets
+in unordered lists to squares, dots and circles however the type is defined now with CSS using the list-style-type. <br>
+You can even nest (ul) and (ol) within each other! <br>
+Example:
+<ol>
+    <li>First point</li>
+    <li>Second point
+        <ul>
+            <li>Second point details</li>
+            <li>More details
+                <ol>
+                    <li>details inside</li>
+                    <li>details inside</li>
+                    <li>details inside</li>
+                </ol>
+            </li>
+        </ul>
+    </li>
+    <li>Third Point</li>
+</ol>
 </p>
 </body>
 </html>
